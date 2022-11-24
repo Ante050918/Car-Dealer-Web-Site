@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>AUTO KUĆA RUBELJ</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo">AUTO KUĆA<span> RUBELJ</span></a>
+
+      <nav class="navbar">
+        <a href="#home">Početna</a>
+        <a href="#services">Servis</a>
+        <a href="#featured">Automobili</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+
+      <div id="login-btn">
+        <button class="btn">Prijava</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <div class="login-form-container">
+      <span id="close-login-form" class="fas fa-times"></span>
+
+      <form action="">
+        <h3>Prijava</h3>
+        <input type="email" placeholder="email" class="box" maxlength = "30" required />
+        <input type="password" placeholder="password" class="box" minlength="8" maxlength = "20" required />
+        <p>Zaboravljena lozinka? <a href="#">Klikni ovdje</a></p>
+        <input type="submit" value="Prijava" class="btn" />
+        <p>ili se prijavi putem</p>
+        <div class="buttons">
+          <a href="#" class="btn"> Google </a>
+          <a href="#" class="btn"> Facebook </a>
+        </div>
+        <p>Nemaš račun? <a href="#">Registriraj se</a></p>
+      </form>
+    </div>
+
+    <section class="home" id="home">
+      <h3>Automobil po vašoj mjeri</h3>
+
+      <img
+        src="image/Home-Page-What-We-Offer1.png"
+        alt="slika"
+      />
+
+      <a href="#featured" class="btn"
+        >Istražite automobile</a
+      >
+    </section>
+
+    <section class="services" id="services">
+      <h1 class="heading">Naš <span>servis</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Prodaja automobila</h3>
+          <p>
+            Pronađi vozilo kakvo želiš. Svako vozilo detaljno je pregledano i
+            fotografirano. Bez skrivenih iznenađenja.
+          </p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>Popravak dijelova</h3>
+          <p>Brzo i efikasno. Bez čekanja.</p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-crash"></i>
+          <h3>Auto osiguranje</h3>
+          <p>
+            Ukoliko ste korisnik leasing-a, imate opciju popusta na auto
+            osiguranje.
+          </p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-battery"></i>
+          <h3>Zamjena baterija</h3>
+          <p>
+            Baterija je srce vašeg vozila i potrebno ju je redovito
+            provjeravati.
+          </p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>Zamjena ulja</h3>
+          <p>
+            Najkvalitetnije motorno i kočiono ulje za vašeg limenog ljubimca.
+          </p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>Podrška 24/7</h3>
+          <p>Kontaktirajte nas ukoliko imate bilo kakvih poteškoća.</p>
+          <a href="#" class="btn"> Pročitaj više</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Auto</span>mobili</h1>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/car-1.png" alt="slika" />
+            <div class="content">
+              <h3>Mercedes SL 500</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">550,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-2.png" alt="slika" />
+            <div class="content">
+              <h3>Buick Enclave</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">400,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-3.png" alt="slika" />
+            <div class="content">
+              <h3>Ford Focus</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">185,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-4.png" alt="slika" />
+            <div class="content">
+              <h3>Audi e-tron</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">732,500 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/car-5.png" alt="slika" />
+            <div class="content">
+              <h3>Kia Sportage</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">212,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-6.png" alt="slika" />
+            <div class="content">
+              <h3>Honda Civic</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">165,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-7.png" alt="slika" />
+            <div class="content">
+              <h3>Kia Sorento</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="price">373,000 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-8.png" alt="slika" />
+            <div class="content">
+              <h3>Chevrolet Traverse</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">299,400 kn</div>
+              <a href="#" class="btn">Provjeri</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Kontaktirajte </span> nas</h1>
+
+      <div class="row">
+        <form action="">
+          <h3>Imate Pitanja? Javite nam se!</h3>
+          <input type="text" placeholder="ime" class="box" minlength = "2" maxlength = "15" required />
+          <input type="email" placeholder="email" class="box"  maxlength = "30" required />
+          <input type="text" placeholder="predmet" class="box" minlength="5" maxlength = "40" required/>
+          <textarea
+            placeholder="poruka"
+            class="box"
+            cols="30"
+            rows="10"
+            minlength="5"
+            maxlength="500"
+            required
+          ></textarea>
+          <input type="submit" value="Pošalji" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Naše podružnice</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Rijeka </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Osijek </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Zagreb </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Dubrovnik </a>
+        </div>
+
+        <div class="box">
+          <h3>Kontakt</h3>
+          <a href="#"> <i class="fas fa-phone"></i> 021-555-222 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> autorubelj@gmail.com </a>
+          <a href="#">
+            <i class="fas fa-map-marker-alt"></i> Split, Hrvatska - 21000
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Posjetite nas i na društvenim mrežama</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+          <a href="#"> <i class="fab fa-pinterest"></i> Pinterest </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
